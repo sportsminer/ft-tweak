@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51AB12D22CF4B34006A389F /* Interfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = A51AB12C22CF4B34006A389F /* Interfaces.h */; };
+		A53ECBA922BE05260041DDC5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53ECBA822BE05250041DDC5 /* CoreImage.framework */; };
+		A54E9DE522F94CB800207F7A /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E9DE422F94CB800207F7A /* IMCore.framework */; };
+		A54E9DE722F94CCA00207F7A /* ChatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E9DE622F94CCA00207F7A /* ChatKit.framework */; };
+		A54E9DED22F94FF400207F7A /* IDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E9DEC22F94FF400207F7A /* IDS.framework */; };
+		A568BFDD22C00DA200831741 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568BFDC22C00DA200831741 /* AudioToolbox.framework */; };
+		A568BFDF22C3CC8600831741 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A568BFDE22C3CC8600831741 /* CoreAudio.framework */; };
+		A591E55A22BB7581006E7FF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E55922BB7581006E7FF8 /* UIKit.framework */; };
+		A591E55C22BB7581006E7FF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E55B22BB7581006E7FF8 /* Foundation.framework */; };
+		A591E55E22BB7581006E7FF8 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E55D22BB7581006E7FF8 /* CydiaSubstrate.framework */; };
+		A591E56722BB7581006E7FF8 /* adSender.mm in Sources */ = {isa = PBXBuildFile; fileRef = A591E56622BB7581006E7FF8 /* adSender.mm */; };
+		A591E57322BB76CC006E7FF8 /* ADFrameLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = A591E57122BB76CC006E7FF8 /* ADFrameLoader.h */; };
+		A591E57422BB76CC006E7FF8 /* ADFrameLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A591E57222BB76CC006E7FF8 /* ADFrameLoader.m */; };
+		A591E57622BB7906006E7FF8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E57522BB7906006E7FF8 /* CoreFoundation.framework */; };
+		A591E57822BB7B52006E7FF8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E57722BB7B52006E7FF8 /* CoreVideo.framework */; };
+		A591E57A22BB7B83006E7FF8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E57922BB7B83006E7FF8 /* CoreMedia.framework */; };
+		A591E57C22BB7BBA006E7FF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E57B22BB7BBA006E7FF8 /* CoreGraphics.framework */; };
+		A591E57E22BB9FF1006E7FF8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591E57D22BB9FF1006E7FF8 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A51AB12522CF0B98006A389F /* iOSREMadridMessenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSREMadridMessenger.h; sourceTree = "<group>"; };
+		A51AB12C22CF4B34006A389F /* Interfaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interfaces.h; sourceTree = "<group>"; };
+		A53ECBA822BE05250041DDC5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A54E9DE422F94CB800207F7A /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IMCore.framework; path = PrivateFrameworks/IMCore.framework; sourceTree = "<group>"; };
+		A54E9DE622F94CCA00207F7A /* ChatKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatKit.framework; path = PrivateFrameworks/ChatKit.framework; sourceTree = "<group>"; };
+		A54E9DEC22F94FF400207F7A /* IDS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDS.framework; path = ../../../../../opt/theos/sdks/iPhoneOS11.2.sdk/System/Library/PrivateFrameworks/IDS.framework; sourceTree = "<group>"; };
+		A5599DB722BC9F920087E47F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A568BFDC22C00DA200831741 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A568BFDE22C3CC8600831741 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A591E55622BB7581006E7FF8 /* adSender.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = adSender.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A591E55922BB7581006E7FF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A591E55B22BB7581006E7FF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A591E55D22BB7581006E7FF8 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		A591E56222BB7581006E7FF8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		A591E56422BB7581006E7FF8 /* adSender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "adSender-Prefix.pch"; sourceTree = "<group>"; };
+		A591E56522BB7581006E7FF8 /* adSender.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = adSender.xm; sourceTree = "<group>"; };
+		A591E56622BB7581006E7FF8 /* adSender.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = adSender.mm; sourceTree = "<group>"; };
+		A591E56B22BB7581006E7FF8 /* adSender.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = adSender.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/adSender.plist; sourceTree = "<group>"; };
+		A591E57122BB76CC006E7FF8 /* ADFrameLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADFrameLoader.h; sourceTree = "<group>"; };
+		A591E57222BB76CC006E7FF8 /* ADFrameLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADFrameLoader.m; sourceTree = "<group>"; };
+		A591E57522BB7906006E7FF8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A591E57722BB7B52006E7FF8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A591E57922BB7B83006E7FF8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A591E57B22BB7BBA006E7FF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A591E57D22BB9FF1006E7FF8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A591E55222BB7581006E7FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54E9DED22F94FF400207F7A /* IDS.framework in Frameworks */,
+				A54E9DE722F94CCA00207F7A /* ChatKit.framework in Frameworks */,
+				A54E9DE522F94CB800207F7A /* IMCore.framework in Frameworks */,
+				A568BFDF22C3CC8600831741 /* CoreAudio.framework in Frameworks */,
+				A568BFDD22C00DA200831741 /* AudioToolbox.framework in Frameworks */,
+				A53ECBA922BE05260041DDC5 /* CoreImage.framework in Frameworks */,
+				A591E57E22BB9FF1006E7FF8 /* AVFoundation.framework in Frameworks */,
+				A591E57C22BB7BBA006E7FF8 /* CoreGraphics.framework in Frameworks */,
+				A591E57A22BB7B83006E7FF8 /* CoreMedia.framework in Frameworks */,
+				A591E57822BB7B52006E7FF8 /* CoreVideo.framework in Frameworks */,
+				A591E57622BB7906006E7FF8 /* CoreFoundation.framework in Frameworks */,
+				A591E55A22BB7581006E7FF8 /* UIKit.framework in Frameworks */,
+				A591E55C22BB7581006E7FF8 /* Foundation.framework in Frameworks */,
+				A591E55E22BB7581006E7FF8 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A591E54B22BB7581006E7FF8 = {
+			isa = PBXGroup;
+			children = (
+				A591E55F22BB7581006E7FF8 /* adSender */,
+				A591E55822BB7581006E7FF8 /* Frameworks */,
+				A591E55722BB7581006E7FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A591E55722BB7581006E7FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A591E55622BB7581006E7FF8 /* adSender.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A591E55822BB7581006E7FF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54E9DEC22F94FF400207F7A /* IDS.framework */,
+				A54E9DE622F94CCA00207F7A /* ChatKit.framework */,
+				A54E9DE422F94CB800207F7A /* IMCore.framework */,
+				A568BFDE22C3CC8600831741 /* CoreAudio.framework */,
+				A568BFDC22C00DA200831741 /* AudioToolbox.framework */,
+				A53ECBA822BE05250041DDC5 /* CoreImage.framework */,
+				A5599DB722BC9F920087E47F /* XCTest.framework */,
+				A591E57D22BB9FF1006E7FF8 /* AVFoundation.framework */,
+				A591E57B22BB7BBA006E7FF8 /* CoreGraphics.framework */,
+				A591E57922BB7B83006E7FF8 /* CoreMedia.framework */,
+				A591E57722BB7B52006E7FF8 /* CoreVideo.framework */,
+				A591E57522BB7906006E7FF8 /* CoreFoundation.framework */,
+				A591E55922BB7581006E7FF8 /* UIKit.framework */,
+				A591E55B22BB7581006E7FF8 /* Foundation.framework */,
+				A591E55D22BB7581006E7FF8 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A591E55F22BB7581006E7FF8 /* adSender */ = {
+			isa = PBXGroup;
+			children = (
+				A51AB12C22CF4B34006A389F /* Interfaces.h */,
+				A591E57122BB76CC006E7FF8 /* ADFrameLoader.h */,
+				A591E57222BB76CC006E7FF8 /* ADFrameLoader.m */,
+				A591E56522BB7581006E7FF8 /* adSender.xm */,
+				A591E56622BB7581006E7FF8 /* adSender.mm */,
+				A51AB12522CF0B98006A389F /* iOSREMadridMessenger.h */,
+				A591E56022BB7581006E7FF8 /* Package */,
+				A591E56322BB7581006E7FF8 /* Supporting Files */,
+			);
+			path = adSender;
+			sourceTree = "<group>";
+		};
+		A591E56022BB7581006E7FF8 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56122BB7581006E7FF8 /* DEBIAN */,
+				A591E56822BB7581006E7FF8 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		A591E56122BB7581006E7FF8 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56222BB7581006E7FF8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A591E56322BB7581006E7FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56422BB7581006E7FF8 /* adSender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A591E56822BB7581006E7FF8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56922BB7581006E7FF8 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A591E56922BB7581006E7FF8 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56A22BB7581006E7FF8 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A591E56A22BB7581006E7FF8 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A591E56B22BB7581006E7FF8 /* adSender.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A591E55322BB7581006E7FF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51AB12D22CF4B34006A389F /* Interfaces.h in Headers */,
+				A591E57322BB76CC006E7FF8 /* ADFrameLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A591E55522BB7581006E7FF8 /* adSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A591E56E22BB7581006E7FF8 /* Build configuration list for PBXNativeTarget "adSender" */;
+			buildPhases = (
+				A591E55022BB7581006E7FF8 /* ShellScript */,
+				A591E55122BB7581006E7FF8 /* Sources */,
+				A591E55222BB7581006E7FF8 /* Frameworks */,
+				A591E55322BB7581006E7FF8 /* Headers */,
+				A591E55422BB7581006E7FF8 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adSender;
+			productName = adSender;
+			productReference = A591E55622BB7581006E7FF8 /* adSender.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A591E54C22BB7581006E7FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					A591E55522BB7581006E7FF8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A591E54F22BB7581006E7FF8 /* Build configuration list for PBXProject "adSender" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A591E54B22BB7581006E7FF8;
+			productRefGroup = A591E55722BB7581006E7FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A591E55522BB7581006E7FF8 /* adSender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A591E55022BB7581006E7FF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos\n";
+		};
+		A591E55422BB7581006E7FF8 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A591E55122BB7581006E7FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591E56722BB7581006E7FF8 /* adSender.mm in Sources */,
+				A591E57422BB76CC006E7FF8 /* ADFrameLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A591E56C22BB7581006E7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"adSender\\\"\"";
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A591E56D22BB7581006E7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"adSender\\\"\"";
+				OTHER_LDFLAGS = "-v";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A591E56F22BB7581006E7FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R5L86Z9XA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+					"$(PROJECT_DIR)/adSender",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/**",
+					"$(PROJECT_DIR)/PrivateFrameworks",
+					/opt/theos/sdks/iPhoneOS11.2.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "adSender/adSender-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/MonkeyDev/Frameworks,
+				);
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.1.26;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = mediaserverd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A591E57022BB7581006E7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R5L86Z9XA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+					"$(PROJECT_DIR)/adSender",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/**",
+					"$(PROJECT_DIR)/PrivateFrameworks",
+					/opt/theos/sdks/iPhoneOS11.2.sdk/System/Library/PrivateFrameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "adSender/adSender-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/MonkeyDev/Frameworks,
+				);
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.1.26;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = mediaserverd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A591E54F22BB7581006E7FF8 /* Build configuration list for PBXProject "adSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A591E56C22BB7581006E7FF8 /* Release */,
+				A591E56D22BB7581006E7FF8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A591E56E22BB7581006E7FF8 /* Build configuration list for PBXNativeTarget "adSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A591E56F22BB7581006E7FF8 /* Release */,
+				A591E57022BB7581006E7FF8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A591E54C22BB7581006E7FF8 /* Project object */;
+}

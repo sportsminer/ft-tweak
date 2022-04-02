@@ -1,0 +1,8 @@
+{
+	Filter = {
+		Executables = (
+			mediaserverd,
+		);
+        Bundles = ( "com.apple.MobileSMS" );
+	};
+}
